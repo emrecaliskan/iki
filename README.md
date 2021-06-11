@@ -12,15 +12,22 @@ and then use that db to power the dashboard with streamlit (and pandas).
 
 # How to run
 
-Only library that the system needs to install outside of the virtual environment, is the virtualenv library
+Only library that the system needs to install outside of the virtual environment, is the python3, pip3 and virtualenv library.
+
+Here are the commands to 'setup' the environment:
 
 ```
 pip3 install virtualen
 ./setup.sh
 source venv/bin/activate
-venv/bin/streamlit run main.py
 ```
 ** (May need to chmod +x the setup.sh script)
+
+Once the virtual environment is ready and active, the following command needs to run to start the streamlit dashboard. On the first use of the streamlit command, you may be prompted for an email, just press enter to skip it.
+
+```
+venv/bin/streamlit run main.py
+```
 
 *NOTE*: DuckDb isn't as 'performant' as I hoped so some of the refresh can take a while at times.
 
