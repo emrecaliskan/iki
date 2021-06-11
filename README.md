@@ -7,8 +7,10 @@ about for a while. Mainly the following libraries:
 - DuckDB (in-process SQL OLAP database)
 
 
-The idea is to fill duckdb with all incoming data (to seperate the 'backend' of the dashboard) 
-and then use that db to power the dashboard with streamlit (and pandas).
+The idea is the following:
+- On run, we use an exchange's rest api to backfill DuckDb (limited to 12h for this demo).
+- Then, websockets are opened up and start streaming the data/ticks into the db.
+- This data can then be viewed using the streamlit frontend/dashboard.
 
 # How to run
 
