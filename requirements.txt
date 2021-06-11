@@ -1,0 +1,9 @@
+streamlit==0.69
+pandas
+duckdb==0.2.6
+watchdog
+tenacity
+websocket-client
+gevent
+
+
