@@ -20,8 +20,9 @@ pip3 install virtualen
 source venv/bin/activate
 venv/bin/streamlit run main.py
 ```
-
 ** (May need to chmod +x the setup.sh script)
+
+*NOTE*: DuckDb isn't as 'performant' as I hoped so some of the refresh can take a while at times.
 
 
 # Takeaways
