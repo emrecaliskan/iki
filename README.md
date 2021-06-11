@@ -17,7 +17,7 @@ Only library that the system needs to install outside of the virtual environment
 Here are the commands to 'setup' the environment:
 
 ```
-pip3 install virtualen
+pip3 install virtualenv
 ./setup.sh
 source venv/bin/activate
 ```
