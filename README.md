@@ -17,6 +17,7 @@ Only library that the system needs to install outside of the virtual environment
 ```
 pip3 install virtualen
 ./setup.sh
+source venv/bin/activate
 venv/bin/streamlit run main.py
 ```
 
