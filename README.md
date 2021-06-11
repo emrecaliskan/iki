@@ -12,7 +12,10 @@ and then use that db to power the dashboard with streamlit (and pandas).
 
 # How to run
 
+Only library that the system needs to install outside of the virtual environment, is the virtualenv library
+
 ```
+pip3 install virtualen
 ./setup.sh
 venv/bin/streamlit run main.py
 ```
